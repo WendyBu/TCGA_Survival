@@ -4,13 +4,14 @@
 
 #### SET WORKING DIRECTORY
 #setwd("/Users/yiwenbu/PycharmProjects/survival/results")
-setwd("~/Desktop/P12_Shu_hxia/SURVIVAL")
+#setwd("~/Desktop/P12_Shu_hxia/SURVIVAL")
+setwd("/Users/yiwenbu/PycharmProjects/TCGA_survival_plot/results")
 library(dplyr)
 library(survival)
 
 
 #### READ DATA, inputFile
-inputFile = '/Users/yiwenbu/PycharmProjects/survival/results/archived/LILRB3_survival_leukemia.xls'
+inputFile = '/Users/yiwenbu/PycharmProjects/TCGA_survival_plot/results/CMTM8_survival_leukemia.xls'
 data <- read.csv(file=inputFile, header=TRUE, sep="\t")
 head(data)  # data format
 """

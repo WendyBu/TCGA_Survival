@@ -67,4 +67,5 @@ if __name__ == "__main__":
     main()
 
 
-# python py/survival_mRNA_cBio.py -g LILRB1 -d /Users/yiwenbu/Desktop/cBioPortal/Leukemia/laml_tcga_pub -o ./results/LILRB1_survival_leukemia.xls
+# python src/survival_mRNA_cBio.py -g LILRB1 -d /Users/yiwenbu/Desktop/cBioPortal/Leukemia/laml_tcga_pub -o ./temp/LILRB1_survival_leukemia.xls
+# python src/survival_mRNA_cBio.py -g CMTM8 -d /Users/yiwenbu/Desktop/cBioPortal/Leukemia/laml_tcga_pub -o ./temp/CMTM8_survival_leukemia.xls
